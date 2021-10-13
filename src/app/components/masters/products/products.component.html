@@ -1,0 +1,109 @@
+<div class="subpageblock">
+  <div class="container implist">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <form [formGroup]="productmaster">
+          <!--novalidate="novalidate"-->
+          <div class="regblock">
+            <h2><i class="fas fa-user-alt"></i> Add New Product</h2>
+            <hr>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="form-group">
+                  <label>Product Name<span>*</span></label>
+                  <input type="text" name="productname" class="form-control" placeholder="Product Name" formControlName="productname"><!--[(ngModel)]="fullname"-->
+                  <p class="text-danger" *ngIf="productmaster.controls.productname.invalid && productmaster.controls.productname.touched"> Please enter Product Name</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Description<span>*</span></label>
+                  <input type="text" name="description" class="form-control" placeholder="Description" formControlName="description"> <!--[(ngModel)]="mobileno"-->
+                  <p class="text-danger" *ngIf="productmaster.controls.description.invalid && productmaster.controls.description.touched"> Please enter Description</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Price<span>*</span></label>
+                  <input type="text" name="Price" class="form-control" placeholder="Price" formControlName="price">  <!--[(ngModel)]="emailid"-->
+                  <p class="text-danger" *ngIf="productmaster.controls.price.invalid && productmaster.controls.price.touched"> Please enter price</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Image<span>*</span></label>
+                  <input type="text" name="image" class="form-control" placeholder="Image" formControlName="productimage">  <!--[(ngModel)]="emailid"-->
+                  <p class="text-danger" *ngIf="productmaster.controls.productimage.invalid && productmaster.controls.productimage.touched"> Please enter Product Image</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Category<span>*</span></label>
+                  <input type="text" name="category" class="form-control" placeholder="Category" formControlName="category">  <!--[(ngModel)]="emailid"-->
+                  <p class="text-danger" *ngIf="productmaster.controls.category.invalid && productmaster.controls.category.touched"> Please enter Category</p>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                        <label>Password<span>*</span></label>
+                        <input type="password" name="password" id="password" class="form-control" placeholder="Password">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                        <label>Confirm Password<span>*</span></label>
+                        <input type="password" name="cpassword" id="cpassword" class="form-control" placeholder="Confirm Password">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                        <label>Building/Street Name</label>
+                        <input type="text" name="building_name" class="form-control" placeholder="Building/Street Name">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                        <label>Locality</label>
+                        <input type="text" name="locality" class="form-control" placeholder="Locality">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                        <label>Landmark </label>
+                        <input type="text" name="landmark" class="form-control" placeholder="Landmark">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                        <label>City<span>*</span></label>
+                        <input type="text" name="city" class="form-control" placeholder="City ">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="form-group">
+                        <label>Pincode<span>*</span> </label>
+                        <input type="text" name="pincode" class="form-control" placeholder="Pincode  ">
+                    </div>
+                </div>
+            </div> -->
+            <br/>
+            <div class="row">
+              <div class="col-md-3">
+                <button type="submit" class="btn btn-primary" (click)="saveproduct()"><i class="fa fa-send"></i> Add Product</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
