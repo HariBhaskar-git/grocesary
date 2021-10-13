@@ -1,0 +1,7 @@
+.header .container {
+  position: relative;
+}
+
+.ie8 .header {
+  border-bottom: 1px solid #eee;
+}
