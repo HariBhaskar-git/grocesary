@@ -1,0 +1,107 @@
+[
+  {
+    "productid": 3000,
+    "productname": "Country Chicken/ Natukodi live",
+    "description": "",
+    "imageurl": "../assets/images/country-chicken.jpg",
+    "price": 700
+  },
+  {
+    "productid": 3001,
+    "productname": "Chicken Curry Cut",
+    "description": "",
+    "imageurl": "../assets/images/chicken-curry-cut.jpg",
+    "price": 145
+  },
+  {
+    "productid": 3002,
+    "productname": "Chicken Biryani Cut",
+    "description": "",
+    "imageurl": "../assets/images/chicken-biryani-cut.jpg",
+    "price": 150
+  },
+  {
+    "productid": 3003,
+    "productname": "Chicken whole skinless uncut",
+    "description": "",
+    "imageurl": "../assets/images/chicken-whole-skinless-uncut.jpeg",
+    "price": 330
+  },
+  {
+    "productid": 3004,
+    "productname": "Chicken Boneless curry cut",
+    "description": "",
+    "imageurl": "../assets/images/chicken-boneless-curry-cut.jpeg",
+    "price": 275
+  },
+  {
+    "productid": 3005,
+    "productname": "Chicken Drumsticks",
+    "description": "",
+    "imageurl": "../assets/images/chicken-drumsticks-2.jpg",
+    "price": 175
+  },
+  {
+    "productid": 3006,
+    "productname": "Chicken Wings",
+    "description": "",
+    "imageurl": "../assets/images/chicken-wings.jpeg",
+    "price": 170
+  },
+  {
+    "productid": 3007,
+    "productname": "THIGH BONELESS",
+    "description": "",
+    "imageurl": "../assets/images/thigh-boneless.jpg",
+    "price": 275
+  },
+  {
+    "productid": 3008,
+    "productname": "Tandoori Legs",
+    "description": "",
+    "imageurl": "../assets/images/tandoori-legs.jpg",
+    "price": 180
+  },
+  {
+    "productid": 3009,
+    "productname": "Chicken Breast Boneless Fillets",
+    "description": "",
+    "imageurl": "../assets/images/chicken-breast-boneless-fillets.jpeg",
+    "price": 275
+  },
+  {
+    "productid": 3010,
+    "productname": "Chicken Liver",
+    "description": "",
+    "imageurl": "../assets/images/chicken-liver.jpeg",
+    "price": 130
+  },
+  {
+    "productid": 3011,
+    "productname": "Chicken Gizzards",
+    "description": "",
+    "imageurl": "../assets/images/chicken-gizzards.jpeg",
+    "price": 90
+  },
+  {
+    "productid": 3012,
+    "productname": "Chicken Mince",
+    "description": "",
+    "imageurl": "../assets/images/chicken-mince.jpg",
+    "price": 250
+  },
+  {
+    "productid": 3013,
+    "productname": "Chicken Soup Bones",
+    "description": "",
+    "imageurl": "../assets/images/chicken-soup-bones.jpg",
+    "price": 90
+  },
+  {
+    "productid": 3014,
+    "productname": "Chicken Wing lollipops",
+    "description": "",
+    "imageurl": "../assets/images/chicken-wing-lollopops.jpg",
+    "price": 175
+  }
+]

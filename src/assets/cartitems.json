@@ -1,0 +1,51 @@
+[
+  {
+    "cartitemid": 1,
+    "productid": 3000,
+    "productname": "Country Chicken/ Natukodi live",
+    "price": 700,
+    "quantity": 5
+  },
+  {
+    "cartitemid": 4,
+    "productid": 3001,
+    "productname": "Chicken Curry Cut",
+    "price": 145,
+    "quantity": 7
+  },
+  {
+    "cartitemid": 5,
+    "productid": 3002,
+    "productname": "Chicken Biryani Cut",
+    "price": 150,
+    "quantity": 13
+  },
+  {
+    "cartitemid": 2019,
+    "productid": 3004,
+    "productname": "Chicken Boneless curry cut",
+    "price": 275,
+    "quantity": 2
+  },
+  {
+    "cartitemid": 2021,
+    "productid": 3005,
+    "productname": "Chicken Drumsticks",
+    "price": 175,
+    "quantity": 1
+  },
+  {
+    "cartitemid": 3019,
+    "productid": 3010,
+    "productname": "Chicken Liver",
+    "price": 130,
+    "quantity": 1
+  },
+  {
+    "cartitemid": 3020,
+    "productid": 3003,
+    "productname": "Chicken whole skinless uncut",
+    "price": 330,
+    "quantity": 1
+  }
+]
