@@ -1,0 +1,46 @@
+<div class="card mb-4 shadow-sm ">
+  <div class="products__single" align="center">
+    <figure class="products__image">
+      <img class="bd-placeholder-img card-img-top p-2 product__image img-responsive"   width="100%" [src]="productItem.imageurl" />
+    </figure>
+      <div class="card-body">
+        <p class="card-text">{{ productItem.productname | slice: 0:80 }}</p>
+        <p class="card-text">
+          <span>Price :</span>
+          <strong>{{ productItem.price | currency:'INR' }}/-  </strong>
+
+          <!--<h3 class="text-center"><span>Price :</span> <b id="price327"><i class="fa fa-rupee"></i> 125/-</b></h3>-->
+          <i *ngIf="addedToWishlist" class="fas fa-heart float-right" (click)="handleRemoveFromWishlist()"></i>
+          <i *ngIf="!addedToWishlist" class="far fa-heart float-right" (click)="handleAddToWishlist()"></i>
+        </p>
+
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-primary product-btn" (click)="handleAddToCart()">
+              Add to Cart
+            </button>
+            <button type="button" class="btn btn-sm btn-outline-secondary product-btn">View Details</button>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+    <!--<div class="products__single" align="center">
+      <figure class="products__image"> <a href="view/country-chicken-natukodi-live-chicken-24501869"> <img alt="Country Chicken/ Natukodi live" class="product__image img-responsive" width="233" height="247" [src]="productItem.imageurl"> </a> </figure>
+      <div class="row">
+        <div class="col-xs-12">
+          <h5 class="products__title"> <a class="products__link  js--isotope-title" href="view/country-chicken-natukodi-live-chicken-24501869">{{productItem.productname}}</a> </h5>-->
+    <!-- <p class="text-center">Marinated and seasoned with a blend Indian of herbs and spices</p> -->
+    <!--<h3 class="text-center"><span>Price :</span> <b id="price192"><i class="fa fa-rupee"></i> {{ productItem.price | currency:'INR' }}/-</b></h3>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="viewcartbox">
+                <a href="view/country-chicken-natukodi-live-chicken-24501869" class="btn btn-darker"><i class="fa fa-angle-right"></i> View More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>-->
+  </div>
